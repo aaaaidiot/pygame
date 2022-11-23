@@ -52,9 +52,9 @@ class App():
         self.sound3 =pygame.mixer.Sound("NSE-660-078.wav") #ボス登場
         self.sound4 =pygame.mixer.Sound("爆発2.mp3") #被弾
         self.sound5 =pygame.mixer.Sound("NSE-S391-134.wav") #ボス撃破
-        pygame.mixer.init()
-        pygame.mixer.music.load("NSR-514-18.wav") #BGM
-        pygame.mixer.music.play(loops=-1)
+        #pygame.mixer.init()
+        #pygame.mixer.music.load("NSR-514-18.wav") #BGM
+        #pygame.mixer.music.play(loops=-1)
         self.main()
     def main(self):
         while self.f:
