@@ -1,3 +1,3 @@
 "# pygame" 
 
-Pythonで作成したゲームとなります
+Pythonで作成したゲームです
